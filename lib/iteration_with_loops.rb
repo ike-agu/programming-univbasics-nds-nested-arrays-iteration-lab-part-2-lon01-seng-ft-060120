@@ -19,11 +19,11 @@ while row_index < src.size do
    
    
     element_index +=1 
- binding.pry 
+ 
   end 
   
 row_index +=1 
-
+binding.pry 
 end 
 
 new_array.min
