@@ -18,11 +18,11 @@ while row_index < src.size do
     elsif src[row_index][element_index] < min_num
      min_num=   src[row_index][element_index]
    end
-   binding.pry
+   
     element_index +=1 
  
   end 
-  
+  binding.pry
 row_index +=1 
 
 end 
