@@ -11,7 +11,7 @@ while row_index < src.size do
   
   while element_index < src[row_index].size do
     
-     src[row_index].min
+     src[row_index][element_index].min
      new_array << src[row_index][element_index]
      
    #end 
