@@ -14,7 +14,7 @@ while row_index < src.size do
      new_array << src[row_index][element_index]
     
      
-   #end 
+   
     element_index +=1 
     
   end 
