@@ -8,11 +8,11 @@ row_index = 0
 new_array = []
 
 while row_index < src.size do
-  binding.pry
+ 
   element_index = 0 
   
   while element_index < src[row_index].size do
-    
+     binding.pry
      new_array << src[row_index][element_index][0].min
     
   
