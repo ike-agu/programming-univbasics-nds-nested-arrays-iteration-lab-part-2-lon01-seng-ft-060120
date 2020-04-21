@@ -24,7 +24,7 @@ while row_index < src.size do
   end 
   
   new_array << min_num
-  binding.pry
+  #binding.pry
 row_index +=1 
 
 end 
