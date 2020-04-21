@@ -16,7 +16,7 @@ while row_index < src.size do
      new_array << src[row_index][element_index][0].min
     
   
-   
+   binding.pry
    
     element_index +=1 
  
@@ -28,5 +28,5 @@ end
 
 new_array.min
 
-binding.pry
+
 end 
