@@ -22,12 +22,14 @@ while row_index < src.size do
     element_index +=1 
  
   end 
+  
+  new_array << min_num
   binding.pry
 row_index +=1 
 
 end 
 
-new_array.min
+new_array
 
 
 end 
