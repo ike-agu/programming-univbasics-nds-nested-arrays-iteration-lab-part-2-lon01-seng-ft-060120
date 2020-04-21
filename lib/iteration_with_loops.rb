@@ -23,8 +23,10 @@ while row_index < src.size do
   end 
   
 row_index +=1 
-binding.pry 
+
 end 
 
 new_array.min
+
+binding.pry
 end 
