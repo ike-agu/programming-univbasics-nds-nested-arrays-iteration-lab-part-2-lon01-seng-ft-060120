@@ -10,14 +10,15 @@ new_array = []
 while row_index < src.size do
  
   element_index = 0 
-  
+  min_num = nil
   while element_index < src[row_index].size do
-     binding.pry
-     new_array << src[row_index][element_index][0].min
-    
-  
-   
-   
+     
+     if min_num == nil
+        min_num=   src[row_index][element_index]
+    elsif src[row_index][element_index] < min_num
+     min_num=   src[row_index][element_index]
+   end
+   binding.pry
     element_index +=1 
  
   end 
